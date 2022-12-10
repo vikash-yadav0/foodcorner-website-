@@ -1,0 +1,307 @@
+@font-face {
+    font-family: regular;
+    src: url(/font/Lora-Italic-VariableFont_wght.ttf);
+}
+
+* {
+    font-family: 'Lato', sans-serif;
+    ;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+    font-family: regular;
+}
+
+/* body */
+body {
+    margin: 0%;
+}
+
+.universal {
+    padding: 0% 7%;
+}
+
+/* nvbar */
+#navbar {
+    background-color: rgb(37, 113, 176);
+    color: white;
+    overflow: auto;
+}
+
+#logo img {
+    height: 40px;
+    width: 40px;
+
+    float: left;
+    padding-top: 28px;
+
+
+}
+
+#logo h3 {
+    float: left;
+    padding-left: 30px;
+    padding-top: 10px;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+#menu-bar {
+    float: right;
+
+}
+
+#menu-bar a {
+    text-decoration: none;
+    color: white;
+}
+
+#menu-bar li {
+    display: inline-block;
+    padding-left: 30px;
+    font-size: 20px;
+    padding-top: 20px;
+}
+
+/*title */
+#title {
+    background-image:url(../images/poster.webp);
+    background-color: black 0.5;
+    color: white;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    text-align: center;
+    background-repeat: no-repeat;
+    background-size: cover
+}
+
+#title h1 {
+    font-size: 80px;
+    font-weight: bold;
+}
+
+#title p {
+    font-size: 30px;
+
+}
+
+/* popular menu */
+#popular-menu {
+    background-color: rgb(193, 193, 151);
+    overflow: auto;
+    padding-bottom: 45px;
+}
+
+#popular {
+    overflow: auto;
+    padding-top: 55px;
+
+}
+
+#popular h2 {
+    color: rgb(37, 113, 176);
+    text-align: center;
+    font-size: 35px;
+    font-weight: 30px;
+    text-decoration: underline;
+    text-underline-offset: 3px;
+}
+
+
+#menu {
+    float: left;
+
+}
+
+/* card*/
+.card {
+
+    background-color: white;
+    box-sizing: border-box;
+    width: 33.33%;
+    float: left;
+    padding: 15px 25px;
+    background-color: rgb(193, 193, 151);
+}
+
+.card img {
+    width: 100%;
+}
+
+.container {
+    padding: 5px 15px;
+    background-color: white;
+    color: rgb(21, 21, 21);
+}
+#showmore{
+    background-color: rgb(193, 193, 151) ;
+    overflow: auto;
+    padding-top: 10px;
+    padding-bottom: 25px;
+    text-align: center;
+}
+#showmore a {
+
+    background-color: rgb(37, 113, 176);
+    color: white;
+    padding: 12px 60px;
+    text-decoration: none;
+    font-size: large;
+    font-weight: bold;
+    border-radius: 25px;
+    
+}
+/* discount */
+#discount{
+    overflow: auto;
+}
+#discount50 {
+    width: 50%;
+    float: left;
+    text-align: center;
+}
+#discount50 img{
+    width: 100%;
+}
+#discount50 h3{
+    padding-top: 20px;
+    font-size: 60px;
+    font-weight: bold;
+
+}
+#discount p{
+    font-size: 30px;
+    padding-bottom: 25px;
+}
+#discount50 a{
+    background-color: rgb(37, 113, 176);
+    color: white;
+    padding: 20px 70px;
+    text-decoration: none;
+    font-size: large;
+    font-weight: bold;
+    border-radius: 25px;
+}
+/* order item */
+#order-item{
+    background-color:rgb(37, 113, 176);
+    color: white;
+    overflow: auto;
+}
+#order-item h1{
+    text-align: center;
+    font-size: 55px;
+}
+#order-item h2{
+text-align: center;
+font-size: 35px;
+}
+#order-item p{
+    text-align: center;
+}
+.bi-1-circle-fill,.bi-2-circle-fill,.bi-3-circle-fill{
+    font-size: 80px;
+ padding-left: 40%;
+}
+#order-id{
+    width: 33.33%;
+    float: left;
+    padding-bottom: 35px;
+}
+/* free delivery */
+#freedilevery{
+    background-image: url(../images/Place\ Your\ Image\ Here\ \(Double\ Click\ to\ Edit\).png);
+    overflow: auto;
+    color: rgb(37, 113, 176);
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 250px;
+    background-size: 100% 100%;
+}
+#freedilevery h1{
+    font-size: 60px;
+}
+#freedilevery p{
+    font-size: 30px;
+    padding-bottom: 35px;
+}
+#freedilevery a{
+    background-color: rgb(37, 113, 176);
+    color: white;
+    padding: 20px 60px;
+    text-decoration: none;
+    font-size: large;
+    font-weight: bold;
+    border-radius: 25px;
+}
+/*waiters */
+#waiters{
+    background-color: rgb(193, 193, 151);
+    overflow: auto;
+    color: rgb(37, 113, 176);
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    
+    
+}
+#waiters h1{
+    font-size: 100px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+   
+}
+#waiters p{
+    font-size: 25px;
+    padding-bottom: 15px;
+}
+#waiters h2{
+    font-size: 35px;
+    padding-bottom: 20px;
+}
+/* social icon */
+#social-icon a{
+    color: white    ;
+}
+.bi-facebook,.bi-twitter,.bi-instagram,.bi-whatsapp {
+    background-color: rgb(37, 113, 176);
+    color: white;
+    margin-left: 20px;
+    padding: 15px 18px;
+    border-radius: 50%;
+}
+/* footer */
+#footer{
+    overflow: auto;
+    background-color: rgb(37, 113, 176);
+    padding-top: 25px;
+    padding-bottom: 25px;
+    color: white;
+}
+#footer50{
+    width: 50%;
+    float: left;
+  
+}
+#footer30{
+    width: 33.33%;
+    float: left;
+
+}
+#footer30 a{
+    text-decoration: none;
+    color: white;
+
+    
+}
+#footer30 ul{
+    padding-inline-start: 0px;
+}
+#footer30 ul li{
+    list-style: none;
+   
+}

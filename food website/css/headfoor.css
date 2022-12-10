@@ -1,0 +1,99 @@
+@font-face {
+    font-family: regular;
+    src: url(/font/Lora-Italic-VariableFont_wght.ttf);
+}
+
+* {
+    font-family: 'Lato', sans-serif;
+    ;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+    font-family: regular;
+}
+
+/* body */
+body {
+    margin: 0%;
+}
+
+.universal {
+    padding: 0% 7%;
+}
+
+/* nvbar */
+#navbar {
+    background-color: rgb(37, 113, 176);
+    color: white;
+    overflow: auto;
+}
+
+#logo img {
+    height: 40px;
+    width: 40px;
+
+    float: left;
+    padding-top: 28px;
+
+
+}
+
+#logo h3 {
+    float: left;
+    padding-left: 30px;
+    padding-top: 10px;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+#menu-bar {
+    float: right;
+
+}
+
+#menu-bar a {
+    text-decoration: none;
+    color: white;
+}
+
+#menu-bar li {
+    display: inline-block;
+    padding-left: 30px;
+    font-size: 20px;
+    padding-top: 20px;
+}
+
+#footer{
+    overflow: auto;
+    background-color: rgb(37, 113, 176);
+    padding-top: 25px;
+    padding-bottom: 25px;
+    color: white;
+}
+#footer50{
+    width: 50%;
+    float: left;
+  
+}
+#footer30{
+    width: 33.33%;
+    float: left;
+
+}
+#footer30 a{
+    text-decoration: none;
+    color: white;
+
+    
+}
+#footer30 ul{
+    padding-inline-start: 0px;
+}
+#footer30 ul li{
+    list-style: none;
+   
+}
